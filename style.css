@@ -1,0 +1,77 @@
+/* global */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: black;
+    color: white;
+
+    /* image */
+    background: url("img/wolves.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Navbar */
+header{
+    margin-inline: 10px;
+}
+
+.navbar {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: blue;
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.main-content {
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.main-content:p{
+    color: white;
+}
+
+/* Footer */
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: blue;
+    display: block;
+    text-align: center;
+}
